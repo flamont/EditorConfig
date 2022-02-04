@@ -1,0 +1,60 @@
+{
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"prettier.withNodeModules": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"jshint.options": {
+		"esversion": 9,
+		"asi": true
+	},
+	"json.maxItemsComputed": 50000,
+	"git.decorations.enabled": false,
+	"explorer.compactFolders": false,
+	"yaml.schemas": {
+		"file:///Users/francis/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.jira.enabled": false,
+	"atlascode.bitbucket.enabled": false,
+	"atlascode.helpExplorerEnabled": false,
+	"git.enableSmartCommit": true,
+	"editor.renderControlCharacters": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"diffEditor.wordWrap": "on",
+	"editor.wordWrap": "on",
+	"prettier.requireConfig": true,
+	"redhat.telemetry.enabled": true,
+	"intelephense.format.braces": "k&r",
+	"intelephense.phpdoc.classTemplate": {
+		"summary": "$1",
+		"tags": ["@package ${1:$SYMBOL_NAMESPACE}"]
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"prettier.useEditorConfig": false,
+	"emmet.includeLanguages": {
+		//"javascript": "javascriptreact",
+		"javascript": "javascript",
+		"vue-html": "html",
+		"vue:": "html"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"Log": false,
+		"vue": true
+	},
+
+	"prettier.semi": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"eslint.format.enable": true,
+	"vetur.format.defaultFormatter.html": "prettier",
+	"workbench.editor.splitInGroupLayout": "vertical"
+}
