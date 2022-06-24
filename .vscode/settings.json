@@ -3,6 +3,7 @@
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
 	"prettier.withNodeModules": true,
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -14,14 +15,18 @@
 	"json.maxItemsComputed": 50000,
 	"git.decorations.enabled": false,
 	"explorer.compactFolders": false,
-
+	"yaml.schemas": {
+		"file:///Users/francis/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
 	"atlascode.jira.enabled": false,
 	"atlascode.bitbucket.enabled": false,
 	"atlascode.helpExplorerEnabled": false,
 	"git.enableSmartCommit": true,
 	"editor.renderControlCharacters": true,
 	"liveServer.settings.donotShowInfoMsg": true,
+	"diffEditor.wordWrap": "on",
 	"editor.wordWrap": "on",
+	"prettier.requireConfig": true,
 	"redhat.telemetry.enabled": true,
 	"intelephense.format.braces": "k&r",
 	"intelephense.phpdoc.classTemplate": {
@@ -29,9 +34,9 @@
 		"tags": ["@package ${1:$SYMBOL_NAMESPACE}"]
 	},
 	"editor.bracketPairColorization.enabled": true,
+	"prettier.useEditorConfig": false,
 	"emmet.includeLanguages": {
-		// "javascript": "javascriptreact",
-		// "javascriptreact": "javascriptreact",
+		//"javascript": "javascriptreact",
 		"javascript": "javascript",
 		"vue-html": "html",
 		"vue:": "html"
@@ -51,22 +56,5 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	"eslint.format.enable": true,
 	"vetur.format.defaultFormatter.html": "prettier",
-	"workbench.editor.splitInGroupLayout": "vertical",
-	"files.associations": {
-		"*.js": "javascriptreact"
-	},
-	"audioCues.onDebugBreak": "off",
-	"audioCues.noInlayHints": "off",
-	"audioCues.lineHasInlineSuggestion": "off",
-	"audioCues.lineHasFoldedArea": "off",
-	"audioCues.lineHasError": "off",
-	"audioCues.lineHasBreakpoint": "off",
-	"workbench.colorTheme": "Dracula",
-	"diffEditor.wordWrap": "on",
-	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.minimap.enabled": false,
-	"beautify.config": true,
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	"workbench.editor.splitInGroupLayout": "vertical"
 }
